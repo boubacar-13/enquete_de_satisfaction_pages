@@ -1,0 +1,1637 @@
+body
+{
+ position: relative;
+ width: 1440px;
+ margin: auto;
+ /*! background: #E5E5E5; */
+}
+.page_content
+{
+ position: relative;
+  width: 1440px;
+  margin: auto;
+ background: #E5E5E5;
+}
+/*----------head------------*/
+.head
+{
+  
+  width: 1440px;
+  height: 103px;
+  background: #FFFFFF;
+}
+.logo-space
+{
+  width: 268.74px;
+  height: 71px;
+  margin-left: 130px;
+  position: relative;
+  top: 16px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 50%;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/one_help_blanc.png");
+  background-size: 100%;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.nav-bar
+{
+  
+  float: left;
+  margin-left: 57px;
+  position: relative;
+  top: 42px;
+}
+.nav-bar ul
+{
+  
+  padding: 0px;
+  margin: 0px;
+}
+.nav-bar ul li
+{
+  
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #303030;
+ 
+  text-transform: uppercase;
+}
+.nav-bar ul li a:hover
+{
+  background: #EDEDED;
+  border-radius: 8px;
+}
+.nav-bar ul li a
+{
+  padding: 4px 10px;
+  cursor: pointer;
+  text-decoration-line: none;
+  text-decoration-style:   solid;
+  text-decoration-color: black;
+  text-decoration-thickness: auto;
+  display: block;
+  color: #303030;
+}
+.nav-bar .active 
+{
+  position: relative;
+  left: 20px;
+  top: -11px;
+   border-radius: 8px;
+}
+.nav-bar .active a
+{
+  
+  margin-right: 0;
+  padding: 14px 23px;
+  background: #884CAB;
+  border-radius: 8px;
+  color: white;
+  text-transform: capitalize;
+}
+.nav-bar .active a:hover
+{
+  color: white;
+  background-color: #006435;
+  padding: 14px 23px;
+  
+}
+/*----------------------------*/
+/*------------bloc-1----------*/
+.bloc-1
+{
+  height: 588px;
+  width: 1180px;
+  margin: auto;
+  margin-top: 30px;
+}
+.bloc-1 .space1
+{
+height: 588px;
+width: 780px;
+border-radius: 8px;
+
+float: left;
+}
+.bloc-1 .space1 .filtre
+{
+  height: 588px;
+width: 780px;
+position: absolute;
+  left: 0%;
+  right: 33.9%;
+  top: 0%;
+  bottom: 0%;
+  background: linear-gradient(180deg, rgba(48, 48, 48, 0) 44.53%, rgba(48, 48, 48, 0.64) 64.09%);
+}
+.bloc-1 .space1 .caption span
+{
+position: absolute;
+right: 37.54%;
+bottom: 16.5%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 140%;
+/* or 50px */
+color: #FFFFFF;
+height: 100px;
+width: 694px;
+left: 43px;
+top: 391px;
+}
+.bloc-1 .space1 .caption a    
+{
+height: 34px;
+width: 144px;
+left: 43px;
+top: 511px;
+border-radius: nullpx;
+position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+color: #FFDE00;
+ cursor: pointer;
+text-decoration: none;
+}
+.bloc-1 .space2
+{
+  height: 590px;
+  width:400px;
+  float: left;
+  background: #FFFFFF;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.bloc-1 .space2 a
+{
+  height: 98px;
+width: 349px;
+border-radius: 8px;
+
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.bloc-1 .space2 .no-hov:hover
+{
+  background: transparent;
+}
+.bloc-1 .space2 a:hover
+{
+  background:rgba(178, 178, 178, 0.49); 
+}
+.bloc-1 .space2 a .redir
+{
+display: block;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+color: #006435;
+width: 250px;
+position: relative;
+top: 20px;
+}
+.bloc-1 .space2 a .vector-1
+{
+  display: block;
+  height: 28.257596969604492px;
+  width: 28.222137451171875px;
+  float: left;
+  background-color: transparent;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/vetement.webp");
+  background-size: 100%;
+  background-origin: padding-box;
+  background-clip: border-box;
+  position: relative;
+  top: 22px;
+}
+.bloc-1 .space2 a img
+{
+ float: left;
+height: 82px;
+width: 82px;
+border-radius: 8px; 
+ position: relative;
+ top: 7px;
+}
+.bloc-1 .space2 a span
+{
+width: 220px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: #0F0F0F;
+  float: left;
+  margin-left: 10px;
+position: relative;
+top: 5px;
+}
+.bloc-1 .space2 .br
+{
+  height: 0px;
+width: 340px;
+  border: 0.1px solid rgba(0, 0, 0, 0.3);
+  margin: auto;
+  position: relative;
+  top: 10px;
+}
+.ss-container
+{
+  width: 100%;
+  height:  588px;
+  position: relative;
+}
+.move
+{
+padding: 0px;
+
+position: absolute;
+width: 30px;
+height: 175px;
+left: 849px;
+top: 308px;
+}
+/*------------slide1----------------*/
+
+#slide
+{
+	width:96%;
+	
+}
+	
+.mySlides {
+	display: none
+}
+
+.slideshow-container {
+	width: auto;
+	position: relative;
+	margin: -10px;
+
+}
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: #494B55;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	margin-top: 12px;
+	background-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	border: 2px solid #FFFFFF;
+}
+.active, .dot:hover {
+	background-color: #FFDE00;
+  border-style: none;
+}
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*----------------------------*/
+/*------------bloc-2----------------*/
+.bloc-2
+{
+  
+  width: 1180px;
+  height: 480px;
+  margin: auto;
+  margin-top: 30px;
+}
+.bloc-2 .cadre1
+{
+ width: 373.33px;
+height: 480px;
+float: left;
+background: #FFFFFF;
+border-radius: 8px; 
+}
+.bloc-2 .txt1
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #006435;
+  padding-left: 30px;
+  display: block;
+  width: max-content;
+  padding-top: 30px;
+  float: left; 
+}
+.bloc-2 .vector-1
+{
+  display: block;
+  height: 28.257596969604492px;
+  width: 28.222137451171875px;
+  float: left;
+  padding: 34px 30px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/Vectorvert.svg");
+  background-size: 32%;
+  background-origin: padding-box;
+  background-clip: border-box;
+  cursor: pointer;
+}
+.bloc-2 .txt2
+{
+  float: left;
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  color: #0F0F0F;
+  padding-left: 30px;
+  width: 320px;
+}
+.bloc-2 .image
+{
+ width: 780px;
+  height: 480px;
+  float: right;
+  border-radius: 8px;
+ overflow: hidden;
+}
+.bloc-2 img
+{
+  width: 100%;
+  height: 480px;
+}
+/*-----------slide-----------------*/
+.bloc-2 input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+/* Base styles for this example */
+
+.bloc-2 .wrapper {
+  width: 1180px; /* unfortunately width has to be set to some hard value */
+  height: 480px;
+}
+
+.bloc-2 .slide {
+  width: 0;
+}
+
+.content {
+  /* this is optional if you want every slide to have same height as the highest one */
+}
+
+
+
+.bloc-2 .wrapper {
+  color: #616161;
+}
+
+.bloc-2 span {
+  color: #616161;
+}
+
+.bloc-2 .content {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+  overflow-y: auto;
+  height: 480px;
+  position: absolute;
+  width: 1180px;
+}
+
+.bloc-2 .content2,
+.content5,
+.content6
+{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+  overflow-y: auto;
+  width: 1180px;
+  height: 480px;
+}
+.bloc-2 .content3 {
+  background-size: cover;
+  background-position: center;
+}
+#i_1:checked ~ .wrapper .content1,
+#i_2:checked ~ .wrapper .content2,
+#i_3:checked ~ .wrapper .content3,
+#i_4:checked ~ .wrapper .content4,
+#i_5:checked ~ .wrapper .content5,
+#i_6:checked ~ .wrapper .content6 {
+  opacity: 1;
+  pointer-events: auto;
+  width: 1180px;
+  height: 480px;
+}
+.bloc-2 .controls
+{
+  width: 320px;
+  position: relative;
+  top: -190px;
+  margin-left: 30px;
+}
+.bloc-2 .controls .br
+{
+  height: 0px;
+width: 278px;
+border: 0.5px solid rgba(0, 0, 0, 0.3);
+margin-left: auto;
+  position: relative;
+  top: -10px;
+}
+.bloc-2 .controls li
+{
+  list-style: none; 
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #404040;
+  position: relative;
+  top: -28px;
+  left: 41px;
+  width: max-content;
+}
+.bloc-2 label {
+  transition-duration: .6s;
+  cursor: pointer;
+  background: #C4C4C4;
+  width: 32px;
+  height: 32px;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #FFFFFF;
+  /*! margin-bottom: 20px; */
+}
+#i_1:checked ~ .controls label[for="i_1"],
+#i_2:checked ~ .controls label[for="i_2"],
+#i_3:checked ~ .controls label[for="i_3"],
+#i_4:checked ~ .controls label[for="i_4"],
+#i_5:checked ~ .controls label[for="i_5"],
+#i_6:checked ~ .controls label[for="i_6"] {
+  background-color: #006435;
+}
+    
+/*----------------------------*/
+/*------------------bloc3--------------*/
+.bloc-3
+{
+  width: 1179.99px;
+  height: 480px;
+  margin: auto;
+  margin-top: 30px;
+  /*! background: blue; */
+}
+.bloc-3 .cadre1
+{
+  
+  width: 373.33px;
+  height: 480px;
+  float: left;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.bloc-3 .cadre2
+{
+  width: 373.33px;
+  height: 480px;
+  float: left;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 29px;
+  margin-right: 29px;
+}
+.bloc-3 .cadre3
+{
+  
+  width: 373.33px;
+  height: 480px;
+  float: left;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.link-1
+{
+  
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #103087;
+  border-radius: 8px;
+  cursor: pointer;
+}
+ .txt1
+{
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FAFAFA;
+  padding-left: 30px;
+  display: block;
+  width: max-content;
+  padding-top: 30px;
+  float: left;
+}
+.link-1 .vector-1
+{
+  
+  display: block;
+  height: 28.257596969604492px;
+  width: 28.222137451171875px;
+  float: left;
+  padding: 34px 30px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/Vectorblanc.svg");
+  background-size: 30%;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.txt2
+{
+  float: left;
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 130%;
+  color: #FFFFFF;
+  padding-left: 30px;
+  width: 321px;
+}
+.txt2-0
+{
+  float: left;
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 130%;
+  color: #FFFFFF;
+  padding-left: 30px;
+  width: 382px;
+}
+.bloc-3 .img
+{
+  
+  width: 373.33px;
+  height: 290px;
+  border-radius: 8px;
+}
+.bloc-3 .infos 
+{
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 140%;
+  color: #0F0F0F;
+  display: block;
+  height: 72px;
+  width: 340px;
+  padding: 15px;
+}
+.DATE
+{
+  
+  width: 62px;
+  height: 62px;
+  background: #FCFFFE;
+  border: 0.369048px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2.75556px;
+  float: right;
+  margin-right: 18px;
+}
+.DATE .month
+{
+height: 24.11px;
+background: #E50007;
+  display: block;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 11.7111px;
+line-height: 2;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+}
+.DATE .day
+{
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.5556px;
+  line-height: 130%;
+  color: #000000;
+  text-align: center;
+  display: block;
+}
+/*--------------------------------------*/
+/*-----------------bloc4-----------------*/
+.bloc-4
+{
+  
+  width: 1180px;
+  height: 575px;
+  margin: auto;
+  margin-top: 30px;
+  /*! background: green; */
+}
+.bloc-4 .cadre1
+{
+  
+  width: 575px;
+  height: 575px;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  float: left;
+}
+.bloc-4 .cadre1 .logo
+{
+  
+  width: 415px;
+  height: 233.44px;
+  padding-top: 27px;
+  margin: auto;
+  padding-bottom: 27px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0;
+  background-position-y: 50%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/goali.svg");
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.link-2
+{
+  
+  display: block;
+  width: 575px;
+  height: 288px;
+  background: #318DDE;
+  border-radius: 8px;
+  cursor: pointer;
+} 
+.link-2 .vector-1
+{
+ display: block;
+  height: 28.257596969604492px;
+  width: 28.222137451171875px;
+  float: left;
+  padding: 30px 30px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../IMg/Vector.png");
+  background-size: 30%;
+  background-origin: padding-box;
+  background-clip: border-box; 
+ position: relative;
+ left: 91px;
+}
+.bloc-4 .cadre2
+{
+  
+  width: 575px;
+  height: 575px;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  float: right;
+  background-color: transparent;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/background.png");
+  background-size: 100%;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.link-3
+{
+  
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 99, 139, 0.9);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.link-3 .vector-1
+{
+ display: block;
+  height: 28.257596969604492px;
+  width: 28.222137451171875px;
+  float: left;
+  padding: 30px 30px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("../IMg/Vector.png");
+  background-size: 30%;
+  background-origin: padding-box;
+  background-clip: border-box; 
+ position: relative;
+ left: 91px;
+}
+/*--------------------------------------*/
+/*----------------bloc-5-1---------------------*/
+.bloc-5-1
+{
+  width: 1180px;
+  height: 228px;
+  margin: auto;
+  margin-top: 30px;
+  /*! background: gray; */
+  margin-bottom: 130px;
+}
+.bloc-5-1 .cadre1
+{
+  
+  width: 100%;
+  height: 228px;
+}
+.bloc-5-1 .cadre1 .formulaire-space
+{
+ width: 783px;
+  height: 228px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  float: left;
+}
+.bloc-5-1 .formulaire-space .title
+{
+  
+  height: 42px;
+  width: 554.1038818359375px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 140%;
+  color: #0F0F0F;
+  padding-top: 39px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.bloc-5-1 .formulaire-space form 
+{
+  
+  margin: auto;
+  width: max-content;
+}
+.bloc-5-1 .formulaire-space form label
+{
+  
+  float: left;
+}
+.bloc-5-1 .formulaire-space form label span
+{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+text-transform: uppercase;
+
+color: #0F0F0F;
+
+  position: relative;
+  left: 24px;
+}
+.bloc-5-1 .formulaire-space form input 
+{
+  
+  width: 240px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+  padding-left: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(48, 48, 48, 0.64);
+}
+.bloc-5-1 .formulaire-space .form3
+{
+  width: 170px;
+height: 50px;
+background: #006435;
+border-radius: 4px;
+color: white;
+  position: relative;
+  top: 20px;
+}
+
+.bloc-5-1 .cadre1 .link-space-1
+{
+  
+  float: right;
+  width: 366.7px;
+  height: 228px;
+}
+.bloc-5-1 .facebook
+{
+  
+  display: block;
+  width: 166.7px;
+  height: 228px;
+  background: url(../IMG/face.svg);
+  float: left;
+  cursor: pointer;
+}
+.bloc-5-1 .twiter
+{
+  
+  display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  background: url(../IMG/twiter.svg);
+  margin-left: 19px;
+  margin-right: 19px;
+  cursor: pointer;
+}
+.bloc-5-1 .flickr
+{
+  
+ display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  margin-left: 19px;
+  margin-right: 19px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/flick.png");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.bloc-5-1 .whatsapp
+{
+  
+  display: block;
+  width: 80px;
+  height: 104px;
+  background: url(../IMG/whatsapp.svg);
+  float: left;
+  cursor: pointer;
+}
+.bloc-5-1 .youtube
+{
+  display: block;
+  width: 80px;
+  height: 104px;
+  background: url(../IMG/youtube.svg);
+  float: left;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/*-------------------------------------*/
+/*-----------------blov-5---------------------*/
+
+.bloc-5
+{
+  
+  width: 1180px;
+  height: 442px;
+  margin: auto;
+  margin-top: 30px;
+  /*! background: gray; */
+  margin-bottom: 130px;
+}
+ .bloc-5 .cadre1
+{
+  
+  width: 100%;
+  height: 228px;
+}
+.bloc-5 .cadre1 .formulaire-space
+{
+ width: 783px;
+  height: 228px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  float: left;
+}
+.bloc-5 .formulaire-space .title
+{
+  
+  height: 42px;
+  width: 554.1038818359375px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 140%;
+  color: #0F0F0F;
+  padding-top: 39px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.bloc-5 .formulaire-space form 
+{
+  
+  margin: auto;
+  width: max-content;
+}
+.bloc-5 .formulaire-space form label
+{
+  
+  float: left;
+}
+.bloc-5 .formulaire-space form label span
+{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+text-transform: uppercase;
+
+color: #0F0F0F;
+
+  position: relative;
+  left: 24px;
+}
+.bloc-5 .formulaire-space form input 
+{
+  
+  width: 240px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+  padding-left: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: rgba(48, 48, 48, 0.64);
+}
+.bloc-5 .formulaire-space .form3
+{
+  width: 170px;
+height: 50px;
+background: #006435;
+border-radius: 4px;
+color: white;
+  position: relative;
+  top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.bloc-5 .cadre1 .link-space-1
+{
+  
+  float: right;
+  width: 366.7px;
+  height: 228px;
+}
+.bloc-5 .facebook
+{
+  
+  display: block;
+  width: 166.7px;
+  height: 228px;
+  float: left;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/face.svg");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.bloc-5 .twiter
+{
+  
+  display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  margin-left: 19px;
+  margin-right: 19px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/twit.png");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.bloc-5 .flickr
+{
+  
+  display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  margin-left: 19px;
+  margin-right: 19px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/flick.png");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.bloc-5 .whatsapp
+{
+  
+  display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/whatsapp.png");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.bloc-5 .youtube
+{
+  display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/youtube.png");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.bloc-5 .cadre2
+{
+  width: 1179.84px;
+   height: 184px;
+  margin-top: 30px;
+}
+.bloc-5 .cadre2 .link-space-2
+{
+  
+}
+.bloc-5 .cadre2 .no-link
+{
+  display: block;
+  width: 196px;
+height: 184px;
+background: #108780;
+border-radius: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #FAFAFA;
+  float: left;
+}
+.bloc-5 .cadre2 .no-link span   
+{
+  display: block;
+  height: 100px;
+width: 105px;
+
+  margin: auto;
+  position: relative;
+  top: 38px;
+}
+.bloc-5 .cadre2 .link-0
+{
+  width: 166.67px;
+height: 184px;
+background: #FFFFFF;
+border-radius: 8px;
+  display: block;
+  float: left;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.bloc-5 .cadre2 .link-0 .log-1, .log-2, .log-3, .log-4, .log-5
+{
+  width: 100%;
+height: 84px;
+}
+.log-1
+{
+  background-color: rgba(0, 0, 0, 0);
+background-position-x: 50%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/javascript.png");
+background-size:;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.log-2
+{
+  background-color: rgba(0, 0, 0, 0);
+background-position-x: 50%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/logo2.svg");
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.log-3
+{
+  background-color: rgba(0, 0, 0, 0);
+background-position-x: 50%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/logo3.svg");
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.log-4
+{
+  background-color: rgba(0, 0, 0, 0);
+background-position-x: 50%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/logo4.svg");
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.log-5
+{
+ background-color: rgba(0, 0, 0, 0);
+background-position-x: 50%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/logo5.svg");
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.bloc-5 .cadre2 .link-0 .vect1, .vect2, .vect3, .vect4, .vect5
+{
+width: 166.67px;
+height: 100px;
+border-radius: 8px;
+cursor: pointer;
+}
+.vect1
+{
+  background-color: #1BA492;
+  background-position-x: 50%;
+background-position-y: 12%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/External Link.png");
+background-size: 18%;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.vect2
+{
+  background: #1B773E;
+  background-position-x: 50%;
+background-position-y: 12%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/External Link.png");
+background-size: 18%;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.vect3
+{
+  background-position-x: 50%;
+background-position-y: 12%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/External Link.png");
+background-size: 18%;
+background-origin: padding-box;
+background-clip: border-box;
+  background-color: #19763F;
+}
+.vect4
+{
+  background-position-x: 50%;
+background-position-y: 12%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/External Link.png");
+background-size: 18%;
+background-origin: padding-box;
+background-clip: border-box;
+  background-color: #09396F;
+}
+.vect5
+{
+  background-position-x: 50%;
+background-position-y: 12%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/External Link.png");
+background-size: 18%;
+background-origin: padding-box;
+background-clip: border-box;
+  background-color: #009919;
+}
+.bloc-5 .cadre2 .link-0 .txt
+{
+display: block;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF; 
+position: relative;
+height: 34px;
+width: 113px;
+left: 0px;
+top: 42px;
+margin: auto;
+}
+/*--------------------------------------*/
+/*---------footer-------------*/
+.footer
+{
+  position: relative;
+ width: 1180px;
+  background: #313131;
+  border: 0.504514px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px 8px 0px 0px;
+  margin: auto;
+}
+.texte0
+{
+  height: 322px;
+  width: 1033.7110595703125px;
+  left: 0px;
+  padding-top: 33px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 85px;
+}
+.texte0 p
+{
+  margin: 0px;
+  float: left;
+  position: relative;
+  
+}
+.texte0 .t1
+{
+  
+  height: 201px;
+  width: 242px;
+  left: 0;
+  top: 0;
+}
+.texte0 .t1 .txt
+{
+  
+  height: 159px;
+  width: 242px;
+}
+.texte0 .t2
+{
+  
+  height: 117px;
+  width: 198px;
+ 
+  padding-left: 56px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.texte0 .t2 .txt
+{
+  
+  height: 70px;
+  width: 203px;
+}
+.texte0 .t3
+{
+  
+  height: 112px;
+  width: 221px;
+  padding-left: 55.55px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.texte0 .t3 .txt
+{
+  
+}
+.texte0 .t4
+{
+  
+  height: 182px;
+  width: 138.7110137939453px;
+  
+padding-left: 55px;
+top: 0;
+bottom: 0;
+}
+.texte0 .title
+{
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.texte0 .txt
+{
+  
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+}
+.texte0 .txt
+{
+  
+  display: block;
+  color: #FFFFFF;
+}
+.texte0 .ico-1
+{
+display: block;
+width: 20px;
+height: 20px;
+position: relative;
+top: 8px;
+margin-right: 9px;
+background-color: rgba(0, 0, 0, 0);
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: url("../IMG/phone.png");
+background-size: cover;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.texte0 .ico-2
+{
+display: block;
+width: 20px;
+height: 20px;
+position: relative;
+top: 0px;
+margin-right: 9px;
+background-color: rgba(0, 0, 0, 0);
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: url("../IMG/email 1.png");
+background-size: cover;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.texte0 .ico-3
+{
+display: block;
+width: 20px;
+height: 20px;
+position: relative;
+top: 0px;
+margin-right: 9px;
+margin-left: 0;
+background-color: rgba(0, 0, 0, 0);
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-attachment: scroll;
+background-image: url("../IMG/pencil 1.png");
+background-size: cover;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.texte0 a
+{
+  display: -webkit-box ;
+}
+.log
+{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+background-position-x: 50%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-image: url("../IMG/Logo CDIJ.png");
+background-size: 37%;
+background-origin: padding-box;
+background-clip: border-box;
+}
+.bar
+{
+  
+  position: relative;
+  top: 161px;
+}
+.footer-bar
+{
+  
+  width: 1044px;
+  height: 170px;
+  left: 0px;
+  background: #EDEDED;
+  border: 0.504514px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px 8px 0px 0px;
+  margin: auto;
+  position: relative;
+}
+.footer-bar .c1
+{
+
+background: #006828;
+  height: 10px;
+  width: 348px;
+float: left;
+}
+.footer-bar .c2
+{
+  
+  
+  background: #FFBE00;
+  height: 10px;
+  width: 348px;
+  float: left;
+}
+.footer-bar .c3
+{
+background: #EB0000;
+height: 10px;
+width: 348px;
+float: left;
+}

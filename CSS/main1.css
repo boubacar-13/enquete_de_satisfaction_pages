@@ -1,0 +1,838 @@
+/*----------------bloc-5-1---------------------*/
+.bloc-5-1 {
+  width: 1180px;
+  height: 228px;
+  margin: auto;
+  margin-top: 30px;
+  /*! background: gray; */
+  margin-bottom: 130px;
+}
+.bloc-5-1 .cadre1 {
+  width: 100%;
+  height: 228px;
+}
+.bloc-5-1 .cadre1 .formulaire-space {
+  width: 783px;
+  height: 228px;
+  background: #ffffff;
+  border-radius: 8px;
+  float: left;
+}
+.bloc-5-1 .formulaire-space .title {
+  height: 42px;
+  width: 554.1038818359375px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 140%;
+  color: #0f0f0f;
+  padding-top: 39px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.bloc-5-1 .formulaire-space form {
+  margin: auto;
+  width: max-content;
+}
+.bloc-5-1 .formulaire-space form label {
+  float: left;
+}
+.bloc-5-1 .formulaire-space form label span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+
+  text-transform: uppercase;
+
+  color: #0f0f0f;
+
+  position: relative;
+  left: 24px;
+}
+.bloc-5-1 .formulaire-space form input {
+  width: 240px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+  padding-left: 15px;
+}
+.bloc-5-1 .formulaire-space .form3 {
+  width: 170px;
+  height: 50px;
+  background: #006435;
+  border-radius: 4px;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+
+.bloc-5-1 .cadre1 .link-space-1 {
+  float: right;
+  width: 366.7px;
+  height: 228px;
+}
+.bloc-5-1 .facebook {
+  display: block;
+  width: 166.7px;
+  height: 228px;
+  background: url(../IMG/face.svg);
+  float: left;
+  cursor: pointer;
+}
+.bloc-5-1 .twiter {
+  display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  background: url(../IMG/twiter.svg);
+  margin-left: 19px;
+  margin-right: 19px;
+  cursor: pointer;
+}
+.bloc-5-1 .flickr {
+  display: block;
+  width: 80px;
+  height: 104px;
+  float: left;
+  margin-left: 19px;
+  margin-right: 19px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: url("../IMG/flick.png");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.bloc-5-1 .whatsapp {
+  display: block;
+  width: 80px;
+  height: 104px;
+  background: url(../IMG/whatsapp.svg);
+  float: left;
+  cursor: pointer;
+}
+.bloc-5-1 .youtube {
+  display: block;
+  width: 80px;
+  height: 104px;
+  background: url(../IMG/youtube.svg);
+  float: left;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/*-------------------------------------*/
+/*-------------------Activiter CDIJ------------------*/
+.contents {
+  width: 1180px;
+  margin: auto;
+}
+.contents .link {
+  width: 1180px;
+  height: 480px;
+}
+.contents .link a {
+  width: 373px;
+  height: 480px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.pos {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.contents .link img {
+  height: 380px;
+  width: 373.3299865722656px;
+  border-radius: 8px;
+}
+.contents .link span {
+  display: block;
+  height: 80px;
+  width: 373.3299865722656px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 3.5;
+  color: #0f0f0f;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 17px;
+}
+/*------------------Service CDIj------------------*/
+.contents .bloc-txt {
+  width: 1180px;
+  height: 229px;
+  background-color: white;
+  border-radius: 10px;
+}
+.contents .bloc-txt p {
+  margin: 0px;
+  padding-top: 60px;
+  height: 109px;
+  width: 1060px;
+  margin: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: justify;
+  color: #000000;
+}
+.contents .bloc-txt1,
+.contents .bloc-txt3 {
+  width: 1180px;
+  height: 480px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.contents .bloc-txt2,
+.contents .bloc-txt4 {
+  width: 1180px;
+  height: 480px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.contents .bloc-txt1 img,
+.contents .bloc-txt3 img {
+  width: 590px;
+  height: 480px;
+  float: right;
+  border-radius: 8px;
+}
+.contents .bloc-txt2 img,
+.contents .bloc-txt4 img {
+  width: 590px;
+  height: 480px;
+  float: left;
+  border-radius: 8px;
+}
+.contents .bloc-txt1 .txt-space,
+.contents .bloc-txt3.txt-space {
+  float: left;
+  width: 590px;
+}
+.contents .bloc-txt2 .txt-space,
+.contents .bloc-txt4 .txt-space {
+  float: left;
+  width: 590px;
+}
+.contents .bloc-txt1 .txt-space .title,
+.contents .bloc-txt3 .txt-space .title {
+  width: 430px;
+  height: 41px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 120%;
+  color: #000000;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.contents .bloc-txt2 .txt-space .title,
+.contents .bloc-txt4 .txt-space .title {
+  width: 392px;
+  height: 41px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 120%;
+  color: #000000;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.contents .txt-space p {
+  margin: 0px;
+  width: 510px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding-left: 40px;
+}
+/*-----------------------reservation en line-----------------*/
+.Reservation-space {
+  width: 1180px;
+  height: 746px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.Reservation-space .formulaire {
+  width: 996px;
+  height: 461px;
+  margin: auto;
+  padding-top: 50px;
+}
+.Reservation-space form .case1,
+.case2,
+.case3 {
+  height: 137px;
+}
+.Reservation-space form .case {
+  height: 77px;
+  float: left;
+}
+.Reservation-space form input {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5556px;
+  line-height: 140%;
+  color: rgba(48, 48, 48, 0.64);
+  border-radius: 4.444444179534912px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1.11111px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+.Reservation-space form .case2 input,
+.Reservation-space form .case3 input {
+  height: 50px;
+  width: 468px;
+  padding-left: 10px;
+}
+.Reservation-space form .case2 .form2,
+.Reservation-space form .case3 .form4 {
+  margin-right: 60px;
+}
+.Reservation-space form .case1 input {
+  height: 50px;
+  width: 290px;
+  border-radius: 4.444444179534912px;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+.Reservation-space form .case3 select {
+  width: 468px;
+  margin: 0px;
+}
+.Reservation-space form select {
+  height: 50px;
+  width: 290px;
+  border-radius: 4.444444179534912px;
+  margin-right: 60px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4.44444px;
+  border-style: solid;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5556px;
+  line-height: 140%;
+  color: rgba(48, 48, 48, 0.64);
+  padding-left: 10px;
+}
+
+.Reservation-space form select option {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5556px;
+  line-height: 140%;
+  color: rgba(48, 48, 48, 0.64);
+  padding-left: 10px;
+}
+
+.Reservation-space form label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.3333px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #0f0f0f;
+  display: inline-block;
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+.Reservation-space form .form5 {
+  background: #006435;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+  height: 50px;
+  width: 20%;
+  border-radius: 4px;
+}
+/*----------------------------------------------*/
+/*---------------------blog-------------------------*/
+.lines-space {
+  width: 1180px;
+  margin: auto;
+}
+.lines-card {
+  height: 376px;
+  margin-bottom: 30px;
+}
+.lines-card .img-space {
+  height: 376px;
+  width: 436px;
+  float: left;
+}
+.lines-card .img-space img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.lines-card .txt-space {
+  float: right;
+  width: 714px;
+  height: 376px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: block;
+}
+.lines-card .txt-space .categories {
+  width: 120px;
+  height: 28px;
+  background: #006435;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 2;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 52px;
+  margin-top: 42px;
+}
+.lines-card .txt-space .date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #303030;
+  padding-left: 52px;
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+.lines-card .txt-space .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+  padding-left: 52px;
+  width: 598px;
+}
+.lines-card .txt-space p {
+  /*! margin: 0; */
+  width: 587px;
+  height: 78px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding-left: 52px;
+}
+.lines-card .txt-space .auteur {
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #006435;
+  padding-left: 52px;
+}
+/*----------------------------------------------*/
+/*----------------event a nenir------------------------------*/
+.Event-space {
+  width: 1179px;
+  margin: auto;
+}
+.event-display {
+  width: 1180px;
+  display: inline-block;
+}
+.event-display .img-space {
+  height: 434px;
+  width: 648px;
+  float: left;
+  border-radius: 8px;
+}
+.event-display .img-space img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.Event-space .event-infos {
+  width: 532px;
+  height: 400px;
+  float: left;
+  background: white;
+  position: relative;
+  top: 16px;
+}
+.Event-space .event-infos .t1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 140%;
+  color: #0f0f0f;
+  height: 96px;
+  width: 451px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.Event-space .event-infos .t2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #006435;
+  display: block;
+  padding-left: 40px;
+  margin-top: 12px;
+}
+.Event-space .event-infos p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+  width: 446px;
+  height: 78px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.Event-space .br {
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  margin: auto;
+  height: 0px;
+  width: 1160px;
+  margin-top: 65px;
+  margin-bottom: 30px;
+}
+.Event-space .mounth-display {
+  width: 1179px;
+  display: inline-block;
+}
+.Event-space .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 140%;
+  /* identical to box height, or 48px */
+  color: #0f0f0f;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.Event-space .mini-card {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.event-infos .DATE {
+  margin-right: 38px;
+}
+.mini-card {
+  width: 373.33px;
+  height: 480px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.mini-card img {
+  width: 373.33px;
+  height: 290px;
+  border-radius: 8px;
+}
+.mini-card .infos {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 140%;
+  /* or 36px */
+  color: #0f0f0f;
+
+  height: 72px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  width: 340px;
+}
+.Event-space .more-display {
+  width: 1179px;
+  display: inline-block;
+}
+.Event-space .more-display .mini-card {
+}
+/*----------------------------------------------*/
+/*-----------------pagination-----------------------------*/
+.pagination {
+  width: 1180px;
+  height: 50px;
+  margin: auto;
+  margin-top: 45px;
+}
+.pagination a,
+.display {
+  width: 170px;
+  height: 50px;
+  display: block;
+  float: left;
+}
+.pagination .display {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 3;
+  text-align: center;
+  position: relative;
+  left: 335px;
+  background: rgba(0, 100, 53, 0.08);
+  border-radius: 4px;
+  color: #006435;
+}
+.pagination .Next {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 3;
+  /* or 22px */
+  color: #0f0f0f;
+  text-align: center;
+  float: right;
+}
+.pagination .Prev {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 3;
+  /* or 22px */
+  color: #0f0f0f;
+  text-align: center;
+  float: left;
+}
+.pagination .Next,
+.Prev {
+  background: #d4d4d4;
+  border-radius: 4px;
+}
+.pagination a:hover {
+  background: #006435;
+  border-radius: 4px;
+  color: white;
+}
+/*----------------------------------------------*/
+/*--------------------mag du mjl--------------------------*/
+.magazine-space {
+  height: 2181px;
+}
+.mag-space {
+  width: 701px;
+  float: left;
+  margin-right: 30px;
+}
+.mag-card {
+  width: 701px;
+  height: 707px;
+  background: #ffffff;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.mag-card .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 120%;
+  /* or 40px */
+  color: #000000;
+  height: 82px;
+  width: 635px;
+
+  margin: auto;
+  padding-top: 40px;
+}
+.mag-card .space {
+  width: 621px;
+  height: 351px;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.mag-card img {
+  width: 621px;
+  height: 351px;
+  border-radius: 8px;
+}
+.mag-card .date {
+  padding-left: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #303030;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.mag-card p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  text-align: justify;
+  letter-spacing: -0.02em;
+  color: #000000;
+  height: 78px;
+  width: 621px;
+  margin: auto;
+}
+/*----------------------------------------------*/
+/*---------------------Revue scientifique-------------------------*/
+.space-scroll .media-display {
+  width: 1179px;
+  margin: auto;
+  display: inline-block;
+}
+
+.space-scroll .media-display .mini-card {
+  float: left;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.media-display .mini-card video {
+  height: 290px;
+  width: 373px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+.media-display .mini-card .minute {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  text-transform: uppercase;
+  color: #303030;
+
+  float: right;
+  padding-right: 20px;
+}
+.mag-side_space {
+  width: 422px;
+  float: left;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.mag-side_space .card .img_space {
+  width: 329px;
+  height: 240px;
+  margin: auto;
+  padding-top: 20px;
+}
+.mag-side_space img {
+  width: 329px;
+  height: 240px;
+  border-radius: 10px;
+}
+.mag-side_space .title1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 140%;
+  /* identical to box height, or 42px */
+  text-align: center;
+  color: #0f0f0f;
+  margin-top: 35px;
+}
+
+.mag-side_space a:hover {
+  background-color: rgba(237, 237, 237, 0.5);
+}
+
+.mag-side_space .card {
+  background: transparent;
+  height: 330px;
+  width: 369px;
+  border-radius: 8px;
+
+  margin: auto;
+  margin-top: 59px;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 59px;
+}
+.magazine-space .card .title2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+  color: #0f0f0f;
+  text-align: initial;
+  height: 40px;
+  width: 329px;
+  margin: auto;
+  margin-top: 10px;
+}
+/*----------------------------*/

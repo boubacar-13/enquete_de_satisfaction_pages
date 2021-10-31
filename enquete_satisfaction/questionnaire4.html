@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Questionnaire</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=10">   
+    <link rel="stylesheet" href="../../CSS/main1.css">
+    <style>
+        @import url(../../CSS/style.css);
+        @import url(../../CSS/main.css);
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style> 
+</head>
+        
+<body> 
+    <main class="page_content">
+        <div class="head">
+            <div class="logo-space">  </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a  href="http://vmi535605.contaboserver.net:7060/jspui/">Nos Actions</a></li>
+                    <li><a  href="https://legis.cdij.bj">Agir avec nous</a></li>
+                    <li><a  href="Frame/Publication.html">Service bénévolat</a></li>
+                    <li><a  href="Frame/Contact.html">Particulier</a></li>
+                    <li><a  href="Frame/Contact.html">Contact</a></li>
+                    <li class="active"><a  href="Frame/Connexion.html">Se Connecter</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="banner">
+                <div class="image">
+                    <div class="filtre-2">
+                    </div>
+                </div>
+                <div class="title">
+                    Etape 4/5
+                </div>
+            </div>
+        
+            <div class="Reservation-space">       
+                <div class="formulaire">
+                    <form method="get" action="./questionnaire4.html">
+
+                        <div>
+                            <div>
+                                <p>Remarquez-vous que les actions sont mieux organisées ? (notes de 1 à 10)</p>
+                                
+                                <p style="font-size: 50px; font-weight:bold;"><span class="mark"></span> / 10</p>
+                                <div>
+                                    <input type="button" value="-" class="form5 decrease markBtns" style="cursor:pointer; width:3rem; height: 2rem;">
+                                    <input type="button" value="+" class="form5 increase markBtns" style="cursor:pointer; width:3rem; height: 2rem;">
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div>
+                            <div>
+                                <p>Que pensez-vous de vos contacts avec les associations et/ou bénévoles rencontrés via OneHelp ?</p>
+                                <div>
+                                    <input type="radio" id="veryFast" name="responseWait" value="Très rapides" checked>
+                                    <label for="veryFast">Très rapides</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" id="fast" name="responseWait" value="Rapides">
+                                    <label for="fast">Rapides</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="okay" name="responseWait" value="Convenables">
+                                    <label for="okay">Convenables</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" id="slow" name="responseWait" value="Peu satisfaisant">
+                                    <label for="slow">Peu satisfaisant</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="verySlow" name="responseWait" value="Très insatisfaisant">
+                                    <label for="verySlow">Très insatisfaisant</label>
+                                </div>
+                            </div>
+                        </div>        
+
+                        <input class="form5" type="submit" value="Précédent" style="text-align: center; cursor:pointer;" >
+                        <input class="form5" type="submit" value="Suivant" style="text-align: center; cursor:pointer;" >
+                    </form>
+                </div>  
+            </div>
+        </div>       
+    </main>  
+    <script src="/js-file/script.js"></script> 
+</body>
+</html>

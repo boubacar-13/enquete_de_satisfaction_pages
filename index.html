@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+    <html>
+
+        <head>
+           
+            <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+             <title>Accueil</title>
+   <meta name="viewport" content="width=device-width, maximum-scale=10">
+           
+     <link rel="stylesheet" href="CSS/style.css">
+    <style>
+     @import url();
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style> 
+        <script>
+ function bodyScale() {
+    var devicewidth = document.documentElement.clientWidth;
+    var scale = devicewidth / 1440;  // Mother - size of the design
+    document.body.style.zoom = scale;
+}
+window.onload = window.onresize = function () {
+    bodyScale();
+};
+ </script>
+ </head>
+
+<body>
+    
+    <main class="page_content">
+      <div class="head">
+        <div class="logo-space"></div>
+          <div class="nav-bar">
+            <ul>
+              <li><a  href="http://vmi535605.contaboserver.net:7060/jspui/">Nos Actions</a></li>
+              <li><a  href="https://legis.cdij.bj">Agir avec nous</a></li>
+              <li><a  href="Frame/Publication.html">Service bénévolat</a></li>
+              <li><a  href="Frame/Contact.html">Particulier</a></li>
+              <li><a  href="Frame/Contact.html">Contact</a></li>
+              <li class="active"><a  href="Frame/Connexion.html">Se Connecter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="body">
+        <div class="bloc-1">
+          <div class="space1">   
+            <div class="ss-container">
+              <div class="mySlides fade">
+                <img src="IMG/benevole.jpg" style="width: 780px; height: 588px;" class="pics"/>
+                <div class="filtre">
+                  <div class="caption">
+                    <span>Des bénévoles au service des associations</span>
+                  </div>
+                </div>   
+              </div>
+              <div class="mySlides fade">
+                <img src="IMG/don_vêtements.jpg" style="width: 780px; height: 588px;" class="pics"/>
+                <div class="filtre">
+                  <div class="caption">
+                    <span>Donner une seconde vie à vos vêtements</span>    
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <img src="IMG/don_nourriture.jpg" style="width: 780px; height: 588px;" class="pics"/>
+                <div class="filtre">
+                  <div class="caption">
+                    <span>Partager un plat avec les necéssiteux</span>    
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <img src="IMG/local_stockage.jpg" style="width: 780px; height: 588px;" class="pics"/>
+                <div class="filtre">
+                  <div class="caption">
+                    <span>Des locaux pour stocker les dons</span>    
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <img src="IMG/don_d_argent.jpg" style="width: 780px; height: 588px;" class="pics"/>
+                <div class="filtre">
+                  <div class="caption">
+                    <span>Vos dons parfaitement redistribuées</span>    
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!--    Putting in the click dots   -->
+            <div class="move">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+          </div> 
+
+
+          <div class="space2">
+            <a onclick="currentSlide(1)">
+              <img src="IMG/benevole.jpg"/>
+              <span>
+                Des bénévoles au service des associations    
+              </span>
+            </a>
+
+            <div class="br"></div>
+
+            <a onclick="currentSlide(2)">
+              <img src="IMG/don_vêtements.jpg"/>
+              <span>
+                Donner une seconde vie à vos vêtements   
+              </span>
+            </a>
+
+            <div class="br"></div>
+
+            <a onclick="currentSlide(3)">
+              <img src="IMG/don_nourriture.jpg"/>
+              <span>
+                Partager un plat avec les necéssiteux    
+              </span>  
+            </a>
+
+            <div class="br"></div>
+
+            <a onclick="currentSlide(4)">
+              <img src="IMG/local_stockage.jpg"/>
+              <span>
+                Des locaux pour stocker les dons   
+              </span>      
+            </a>
+
+            <div class="br"></div>
+
+            <a onclick="currentSlide(5)">
+              <img src="IMG/don_d_argent.jpg"/>
+              <span>
+                Vos dons monétaires pour des aides précises   
+              </span>      
+            </a>      
+          </div>  
+        </div>
+        <div class="bloc-2">     
+          <input type="radio" name="switch" id="i_1">
+          <input type="radio" name="switch" id="i_2">
+          <input type="radio" name="switch" id="i_3" checked>
+
+           
+        
+          <div class="bloc-5">
+          
+          <div class="cadre2">
+          <div class="link-space-2">
+              <div class="no-link"><span style="color: white;">Liens Projets</span></div>
+            <a class="link-0" href="./enquete_satisfaction/intro_enquete.html">
+              <div class="log-1"></div>
+            <div class="vect1">
+                <span class="txt">
+                Projet JS
+                </span>
+                </div>
+            </a>
+            <a class="link-0" href="">
+              <div class="log-2"></div>
+            <div class="vect2">
+                <div class="txt">
+                  <span style="color: white;">  
+                Projet JEE
+                </span>
+                </div>
+                </div>
+            </a>
+            <a class="link-0" href="">
+              <div class="log-3"></div>
+            <div class="vect3">
+                <span class="txt">
+                Projet C#
+                </span>
+                </div>
+            </a>
+
+            <a class="link-0" href="">
+              <div class="log-4"></div>
+            <div class="vect4">
+                <span class="txt">
+                Projet PHP
+                </span>
+                </div>
+            </a>
+          </div>
+          </div>
+
+          <div class="cadre2">
+            <div class="link-space-2">
+              <div class="no-link">
+                <span style="color: white;">Liens Projets</span>
+              </div>
+              
+              <a class="link-0" href="https://justice.gouv.bj/">
+                <div class="log-1"></div>
+                <div class="vect1">
+                  <span class="txt">
+                    Projet CMS
+                  </span>
+                </div>
+              </a>
+              <a class="link-0" href="">
+                <div class="log-2"></div>
+                <div class="vect2">
+                  <div class="txt">
+                    <span style="color: white;">  
+                      Framework Javascript (Angular-React)
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a class="link-0" href="">
+                <div class="log-3"></div>
+                <div class="vect3">
+                  <span class="txt">
+                  Application Mobile
+                  </span>
+                </div>
+              </a>
+
+              <a class="link-0" href="">
+                <div class="log-4"></div>
+                <div class="vect4">
+                  <span class="txt">
+                  NoSql + Mongo DB
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </main>
+    
+</body>
+<script src="js-file/slide-show.js"></script>
+ </html>
