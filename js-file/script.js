@@ -8,7 +8,6 @@ window.onload = window.onresize = function () {
     bodyScale()
 }
 
-let noteFinale = 0
 
 function selectUsed(selectedId){
     let selectId = document.getElementById(selectedId)
@@ -70,7 +69,7 @@ function checkNumberPhone(){
         document.getElementById('numberPhone').style.border = '2px solid green'
     }
 }
-// si click sur bouton suivant et aucun champs n'est rempli = bordures rouges activées
+// si le user click sur le bouton suivant et qu'aucun champs n'est rempli = bordures rouges activées
 function preventContinuing(){
     let inputs = document.getElementsByTagName('input')
     let selects = document.getElementsByTagName('select')
@@ -86,22 +85,17 @@ function preventContinuing(){
         }
     }
 }
+// début cookies nom et prénom
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires="+ d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
-function activatingCookie(){
-
-    let lastName = document.getElementById('lastName')
-    lastName = document.getElementById('lastName').value
-    setCookie('lastName', lastName, 3)
-    let firstName = document.getElementById('firstName')
-    firstName = document.getElementById('firstName').value
-    setCookie('firstName', firstName, 3)
-    
-    
+function activatingCookie(idInputName, cookieName){
+    let myLet = document.getElementById(idInputName)
+    myLet = document.getElementById(idInputName).value
+    setCookie(cookieName, myLet, 3)
 }
 function getCookie(cname) {
   let name = cname + "=";
@@ -118,6 +112,8 @@ function getCookie(cname) {
   }
   return "";
 }
+// fin cookies nom et prénom
+
 // afficher nom + prénom grâce au cookie
 let identite = document.querySelector('.identite')
 if(identite){
@@ -128,21 +124,41 @@ if(identite){
 
 
 
-let delaiDeReponse = document.querySelector('input[name="response_wait"]:checked')
-let easyFind = document.querySelector('input[name="easyFind"]:checked')
-let responseWait = document.querySelector('input[name="responseWait"]:checked')
-if(delaiDeReponse){
-    noteFinale += parseInt(delaiDeReponse.value)
-    // console.log(noteFinale);
+
+// ici commence , jusqu'à la fin les cookies des notes
+
+// la note finale est calculée à partir des 4 questions sur les fichiers questionnaire2 et questionnaire4 en utilisant les cookies
+let noteFinale = 0
+
+let delaiDeReponse2 = document.getElementsByName('response_wait')
+let easyFind2 = document.getElementsByName('easyFind')
+let responseWait2 = document.getElementsByName('responseWait')
+
+// Page 2
+if(delaiDeReponse2){
+    delaiDeReponse2.forEach(function(delai){
+        delai.addEventListener('click',function(e){        
+            // if(e.currentTarget.checked == true){
+                let resultaaaat = document.querySelector('input[name="response_wait"]:checked')
+                setCookie('delaiDeReponse', resultaaaat.value, 3)
+            // }
+        })
+    })
 }
-if(easyFind){
-    noteFinale += parseInt(easyFind.value)
-    // console.log(noteFinale);
+
+if(easyFind2){
+    easyFind2.forEach(function(easy){
+        easy.addEventListener('click',function(e){        
+            // if(e.currentTarget.checked == true){
+                let resultaaaaat = document.querySelector('input[name="easyFind"]:checked')
+                setCookie('easyFind', resultaaaaat.value, 3)
+            // }
+        })
+    })
 }
-if(responseWait){
-    noteFinale += parseInt(responseWait.value)
-    // console.log(noteFinale);
-}
+// Fin Page 2
+
+
 
 // Page 4 : boutons pour créer note sur 10 
 mark = document.querySelector('.mark')
@@ -163,12 +179,36 @@ if(mark){
             }
             mark.innerHTML = count
             noteFinale += count
+            setCookie('mark', count, 3)
         })
     })
+    
 }
 // fin page 4 boutons note sur 10
 
+
+// Page 4 radio button
+if(responseWait2){
+    responseWait2.forEach(function(response){
+        response.addEventListener('click',function(e){        
+            // if(e.currentTarget.checked == true){
+                let resultaaaaaaat = document.querySelector('input[name="responseWait"]:checked')
+                setCookie('responseWait', resultaaaaaaat.value, 3)
+            // }
+        })
+    })
+}
+// Fin Page 4 button
+
+
+
+
+
+noteFinale += parseInt(getCookie('delaiDeReponse')) + parseInt(getCookie('easyFind')) + parseInt(getCookie('mark')) + parseInt(getCookie('responseWait'))
+
+
+//dernière page et résultat de l'enquête
 let degreDeSatisfaction = document.querySelector('.degreDeSatisfaction')
 if(document.querySelector('.degreDeSatisfaction')){
-    document.querySelector('.degreDeSatisfaction').innerHTML = noteFinale
+    document.querySelector('.degreDeSatisfaction').innerHTML = noteFinale / 4
 }

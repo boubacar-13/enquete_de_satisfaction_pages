@@ -69,11 +69,11 @@
                         <div class="case2">
                             <div class="case">
                                 <label for="lastName">Nom :</label><br>       
-                                <input class="form2" type="text" placeholder="Votre Nom" id="lastName" pattern="[a-zA-Z]{2,20}" required onblur="checkInputText('lastName'), activatingCookie()">
+                                <input class="form2" type="text" placeholder="Votre Nom" id="lastName" pattern="[a-zA-Z]{2,20}" required onblur="checkInputText('lastName'), activatingCookie('lastName', 'lastName')">
                             </div>
                             <div class="case">
                                 <label for="firstName">Prénom :</label><br>       
-                                <input class="form3" type="text" placeholder="Votre Prénom" id="firstName" pattern="^[a-zA-Z]+$" required onblur="checkInputText('firstName'), activatingCookie()">
+                                <input class="form3" type="text" placeholder="Votre Prénom" id="firstName" pattern="^[a-zA-Z]+$" required onblur="checkInputText('firstName'), activatingCookie('firstName', 'firstName')">
                             </div>
                         </div>
                         
