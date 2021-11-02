@@ -71,7 +71,7 @@
                         <div class="case1">
                             <div class="case">
                                 <h2 for="selectSecteurDactivite">Dans quel secteur géographique agissez-vous ?</h2><br>
-                                <select name="selectSecteurDactivite" id="selectSecteurDactivite" onblur="checkAnciennete()">
+                                <select name="selectSecteurDactivite" id="selectSecteurDactivite" onblur="selectUsed('selectSecteurDactivite')" required>
                                     <option value="">---Choisir--- </option>
                                     <option value="75003">Paris 75003</option>
                                     <option value="75006">Paris 75006</option>
@@ -80,12 +80,12 @@
                                     <option value="91">Essonne</option>
                                     <option value="92">Hauts-de-Seine</option>
                                     <option value="93">Seine-Saint-Denis</option>
-                                    <option value="94"></option>
+                                    <option value="94">Val-de-Marne</option>
                                     <option value="95">Oise</option>
                                 </select>
                             </div>
                         </div>
-
+                        <div style="margin-top: 20px; margin-bottom: 30px;"></div>
                         <input class="form5" action="action" onclick="window.history.go(-1); return false;" type="submit" value="Précédent" style="text-align: center; cursor:pointer;"/>                        
                         <input class="form5" type="submit" value="Suivant" style="text-align: center; cursor:pointer;" >
                     </form>

@@ -8,6 +8,7 @@ window.onload = window.onresize = function () {
     bodyScale()
 }
 
+let noteFinale = 0
 
 function selectUsed(selectedId){
     let selectId = document.getElementById(selectedId)
@@ -17,12 +18,6 @@ function selectUsed(selectedId){
     else{
         selectId.style.border = '2px solid green'
     }
-}
-function checkJeSuis(){
-    let jeSuis = document.getElementById('selectCategory').value
-}
-function checkAnciennete(){
-    let anciennete = document.getElementById('selectAnciennete').value
 }
 function checkInputText(str){
     let strg = document.getElementById(str).value  
@@ -75,6 +70,7 @@ function checkNumberPhone(){
         document.getElementById('numberPhone').style.border = '2px solid green'
     }
 }
+// si click sur bouton suivant et aucun champs n'est rempli = bordures rouges activées
 function preventContinuing(){
     let inputs = document.getElementsByTagName('input')
     let selects = document.getElementsByTagName('select')
@@ -122,6 +118,7 @@ function getCookie(cname) {
   }
   return "";
 }
+// afficher nom + prénom grâce au cookie
 let identite = document.querySelector('.identite')
 if(identite){
     let resultLastName = getCookie('lastName')
@@ -131,26 +128,47 @@ if(identite){
 
 
 
+let delaiDeReponse = document.querySelector('input[name="response_wait"]:checked')
+let easyFind = document.querySelector('input[name="easyFind"]:checked')
+let responseWait = document.querySelector('input[name="responseWait"]:checked')
+if(delaiDeReponse){
+    noteFinale += parseInt(delaiDeReponse.value)
+    // console.log(noteFinale);
+}
+if(easyFind){
+    noteFinale += parseInt(easyFind.value)
+    // console.log(noteFinale);
+}
+if(responseWait){
+    noteFinale += parseInt(responseWait.value)
+    // console.log(noteFinale);
+}
 
+// Page 4 : boutons pour créer note sur 10 
+mark = document.querySelector('.mark')
+if(mark){
+    markBtns = document.querySelectorAll('.markBtns')
+    let count = 10
+    mark.innerHTML = count
 
+    markBtns.forEach(function(btn){
+        btn.addEventListener('click', function(e){
+            let hasIncrease = e.currentTarget.classList.contains('increase')
+            let hasDecrease = e.currentTarget.classList.contains('decrease')
+            if(hasIncrease && count < 10){
+                count++
+            }
+            else if(hasDecrease && count > 0){
+                count--
+            }
+            mark.innerHTML = count
+            noteFinale += count
+        })
+    })
+}
+// fin page 4 boutons note sur 10
 
-// page 4 notation 
-// markBtns = document.querySelectorAll('.markBtns')
-// mark = document.querySelector('.mark')
-// let count = 10
-// mark.innerHTML = count
-
-// markBtns.forEach(function(btn){
-//     btn.addEventListener('click', function(e){
-//         let hasIncrease = e.currentTarget.classList.contains('increase')
-//         let hasDecrease = e.currentTarget.classList.contains('decrease')
-//         if(hasIncrease && count < 10){
-//             count++
-//         }
-//         else if(hasDecrease && count > 0){
-//             count--
-//         }
-//         mark.innerHTML = count
-//     })
-// })
-// fin page 4 notation 
+let degreDeSatisfaction = document.querySelector('.degreDeSatisfaction')
+if(document.querySelector('.degreDeSatisfaction')){
+    document.querySelector('.degreDeSatisfaction').innerHTML = noteFinale
+}

@@ -47,7 +47,7 @@
                         <div class="case1">
                             <div class="case">
                                 <label for="selectCategory">Je suis :</label><br>
-                                <select name="selectCategory" id="selectCategory" onblur="checkJeSuis(), selectUsed('selectCategory')" required>
+                                <select name="selectCategory" id="selectCategory" onblur="selectUsed('selectCategory')" required>
                                     <option value="">---Choisir---</option>
                                     <option value="particulier">Un particulier </option>
                                     <option value="association">Une association</option>
@@ -56,7 +56,7 @@
 
                             <div class="case">
                                 <label for="selectAnciennete">Nombre d'années en tant que bénévole</label><br>
-                                <select name="selectAnciennete" id="selectAnciennete" onblur="checkAnciennete(), selectUsed('selectAnciennete')" required>
+                                <select name="selectAnciennete" id="selectAnciennete" onblur="selectUsed('selectAnciennete')" required>
                                     <option value="">---Choisir--- </option>
                                     <option value="0-2">0-2 ans</option>
                                     <option value="3-5">3-5 ans</option>
