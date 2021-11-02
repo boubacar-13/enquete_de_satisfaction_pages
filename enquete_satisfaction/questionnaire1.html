@@ -43,11 +43,11 @@
         
             <div class="Reservation-space">       
                 <div class="formulaire">
-                    <form method="get" action="./questionnaire2.html">
+                    <form method="get" action="./questionnaire2.html" id="myForm">
                         <div class="case1">
                             <div class="case">
                                 <label for="selectCategory">Je suis :</label><br>
-                                <select name="selectCategory" id="selectCategory" onblur="checkJeSuis()">
+                                <select name="selectCategory" id="selectCategory" onblur="checkJeSuis(), selectUsed('selectCategory')" required>
                                     <option value="">---Choisir---</option>
                                     <option value="particulier">Un particulier </option>
                                     <option value="association">Une association</option>
@@ -56,7 +56,7 @@
 
                             <div class="case">
                                 <label for="selectAnciennete">Nombre d'années en tant que bénévole</label><br>
-                                <select name="selectAnciennete" id="selectAnciennete" onblur="checkAnciennete()">
+                                <select name="selectAnciennete" id="selectAnciennete" onblur="checkAnciennete(), selectUsed('selectAnciennete')" required>
                                     <option value="">---Choisir--- </option>
                                     <option value="0-2">0-2 ans</option>
                                     <option value="3-5">3-5 ans</option>
@@ -69,39 +69,39 @@
                         <div class="case2">
                             <div class="case">
                                 <label for="lastName">Nom :</label><br>       
-                                <input class="form2" type="text" placeholder="Votre Nom" id="lastName" pattern="[a-zA-Z]{2,20}" required onblur="checkInputText()">
+                                <input class="form2" type="text" placeholder="Votre Nom" id="lastName" pattern="[a-zA-Z]{2,20}" required onblur="checkInputText('lastName'), activatingCookie()">
                             </div>
                             <div class="case">
                                 <label for="firstName">Prénom :</label><br>       
-                                <input class="form3" type="text" placeholder="Votre Prénom" id="firstName" pattern="^[a-zA-Z]+$" required onblur="checkInputText()">
+                                <input class="form3" type="text" placeholder="Votre Prénom" id="firstName" pattern="^[a-zA-Z]+$" required onblur="checkInputText('firstName'), activatingCookie()">
                             </div>
                         </div>
                         
                         <div class="case2">
                             <div class="case">
                                 <label>Âge :</label><br>
-                                <input class="form2" type="number" placeholder="Votre âge " id="age" onblur="checkInputAge()">
+                                <input class="form2" type="number" placeholder="Votre âge " id="age" onblur="checkInputAge()" required>
                             </div>
                             <div class="case">
                                 <label>E-mail :</label><br>
-                                <input class="form3" type="text" placeholder="Votre e-mail" id="email" onblur="checkEmail()">
+                                <input class="form3" type="text" placeholder="Votre e-mail" id="email" onblur="checkEmail()" required>
                             </div>
                         </div>
 
                         <div class="case3">
                             <div class="case">
                                 <label>Localisation :</label><br>   
-                                <input class="form4"  type="text" placeholder="Votre ville et code postal" onblur="checkInputText()">
+                                <input class="form4"  type="text" placeholder="Votre ville et code postal" id="localisation" onblur="checkInputText('localisation')" required>
                             </div>
 
                             <div class="case">
                                 <label>Téléphone</label><br>
                                 <input class="form1" type="tel" id="numberPhone" name="numberPhone" placeholder="Ex : 06-98-12-76-45"
-                                    pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" onblur="checkNumberPhone()">
+                                    pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" onblur="checkNumberPhone()" required>
                             </div>
                         </div>
 
-                        <input class="form5" type="submit" value="Suivant" style="text-align: center; cursor:pointer;" >
+                        <input class="form5" type="submit" value="Suivant" style="text-align: center; cursor:pointer;" onclick="makeCookie()" >
                     </form>
                 </div>  
             </div>

@@ -44,51 +44,49 @@
             <div class="Reservation-space">       
                 <div class="formulaire">
                     <form method="get" action="./questionnaire3.html">
+                        <h1 class="identite"></h1>
                         <div>
+                            <h2>Les délais de réponses lors de vos recherches sont :</h2>
                             <div>
-                                <p>Les délais de réponses lors de vos recherches sont :</p>
-                                <div>
-                                    <input type="radio" id="veryFast" name="responseWait" value="Très rapides" checked>
-                                    <label for="veryFast">a) Très rapides</label>
-                                </div>
-
-                                <div>
-                                    <input type="radio" id="fast" name="responseWait" value="Rapides">
-                                    <label for="fast">b) Rapides</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="okay" name="responseWait" value="Convenables">
-                                    <label for="okay">c) Convenables</label>
-                                </div>
-
-                                <div>
-                                    <input type="radio" id="slow" name="responseWait" value="Peu satisfaisant">
-                                    <label for="slow">d) Peu satisfaisant</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="verySlow" name="responseWait" value="Très insatisfaisant">
-                                    <label for="verySlow">e) Très insatisfaisant</label>
-                                </div>
+                                <input type="radio" id="veryFast" name="response_wait" value="Très rapides" checked>
+                                <label for="veryFast">Très rapides</label>
                             </div>
+                            
+                            <div>
+                                <input type="radio" id="fast" name="response_wait" value="Rapides">
+                                <label for="fast">Rapides</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="okay" name="response_wait" value="Convenables">
+                                <label for="okay">Convenables</label>
+                            </div>
+                    
+                            <div>
+                                <input type="radio" id="slow" name="response_wait" value="Peu satisfaisant">
+                                <label for="slow">Peu satisfaisant</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="verySlow" name="response_wait" value="Très insatisfaisant">
+                                <label for="verySlow">Très insatisfaisant</label>
+                            </div>                   
                         </div>       
 
                         <div>
                             <div>
-                                <p>Vous êtes « bénévole/une association », Trouvez-vous facilement « une association/des bénévoles » ? </p>
+                                <h2>Vous êtes un particulier ou une association, trouvez-vous facilement des bénévoles ou d'autres associations ? </h2>
                                 <div>
-                                <input type="radio" id="yes" name="easyFind" value="yes" checked>
-                                <label for="yes">Yes</label>
+                                    <input type="radio" id="yes" name="easyFind" value="yes" checked>
+                                    <label for="yes">Yes</label>
                                 </div>
 
                                 <div>
-                                <input type="radio" id="no" name="easyFind" value="no">
-                                <label for="no">No</label>
+                                    <input type="radio" id="no" name="easyFind" value="no">
+                                    <label for="no">No</label>
                                 </div>
                             </div>
                             
                         </div>
-
-                        <input class="form5" type="submit" value="Précédent" style="text-align: center; cursor:pointer;" >
+                        <input class="form5" action="action" onclick="window.history.go(-1); return false;" type="submit" value="Précédent" style="text-align: center; cursor:pointer;"/>
                         <input class="form5" type="submit" value="Suivant" style="text-align: center; cursor:pointer;" >
                     </form>
                 </div>  

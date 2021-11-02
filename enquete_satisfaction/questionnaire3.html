@@ -44,33 +44,33 @@
             <div class="Reservation-space">       
                 <div class="formulaire">
                     <form method="get" action="./questionnaire4.html">
+                        <h1 class="identite"></h1>
                         <div>
                             <div>
-                                <p>Quelles types d’actions bénévoles effectuez-vous ?</p>
+                                <h2>Quelles types d’actions bénévoles effectuez-vous ?</h2>
                                 <div>
-                                    <input type="checkbox" id="veryFast" name="responseWait" value="Très rapides">
-                                    <label for="veryFast">Maraude alimentaire</label>
+                                    <input type="checkbox" id="typeDactions" name="typeDactions" value="Maraude alimentaire" checked>
+                                    <label for="mAlimentaire">Maraude alimentaire</label>
+                                </div>                 
+                                <div>
+                                    <input type="checkbox" id="typeDactions" name="typeDactions" value="Maraude sociale">
+                                    <label for="mSociale">Maraude sociale</label>
                                 </div>
-
                                 <div>
-                                    <input type="checkbox" id="fast" name="responseWait" value="Rapides">
-                                    <label for="fast">Maraude sociale</label>
+                                    <input type="checkbox" id="typeDactions" name="typeDactions" value="Collecte de dons">
+                                    <label for="collecte">Collecte de dons</label>
                                 </div>
+                        
                                 <div>
-                                    <input type="checkbox" id="okay" name="responseWait" value="Convenables">
-                                    <label for="okay">Collecte de dons</label>
-                                </div>
-
-                                <div>
-                                    <input type="checkbox" id="slow" name="responseWait" value="Peu satisfaisant">
-                                    <label for="slow">Visites des personnes isolées/malades</label>
+                                    <input type="checkbox" id="typeDactions" name="typeDactions" value="Visites de personnes">
+                                    <label for="visitePax">Visites des personnes isolées/malades</label>
                                 </div>
                             </div>
                         </div>       
 
                         <div class="case1">
                             <div class="case">
-                                <p for="selectSecteurDactivite">Dans quel secteur géographique agissez-vous ?</p><br>
+                                <h2 for="selectSecteurDactivite">Dans quel secteur géographique agissez-vous ?</h2><br>
                                 <select name="selectSecteurDactivite" id="selectSecteurDactivite" onblur="checkAnciennete()">
                                     <option value="">---Choisir--- </option>
                                     <option value="75003">Paris 75003</option>
@@ -86,7 +86,7 @@
                             </div>
                         </div>
 
-                        <input class="form5" type="submit" value="Précédent" style="text-align: center; cursor:pointer;" >
+                        <input class="form5" action="action" onclick="window.history.go(-1); return false;" type="submit" value="Précédent" style="text-align: center; cursor:pointer;"/>                        
                         <input class="form5" type="submit" value="Suivant" style="text-align: center; cursor:pointer;" >
                     </form>
                 </div>  

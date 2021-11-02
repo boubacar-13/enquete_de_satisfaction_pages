@@ -43,18 +43,18 @@
         
             <div class="Reservation-space">       
                 <div class="formulaire">
-                    <form method="get" action="./questionnaire3.html">
-
+                    <form method="get" action="./resultats_enquete.html">
+                        <h1 class="identite"></h1>
                         <div>
                             <div>
-                                <p>Avez-vous des recommandations à nous faire ? </p>
+                                <h2>Avez-vous des recommandations à nous faire ? </h2>
                                 <div>
-                                    <textarea name="recommandations" id="recommandations" cols="120" rows="15"></textarea>
+                                    <textarea name="recommandations" id="recommandations" cols="120" rows="15" placeholder="Dîtes-nous tout..."></textarea>
                                 </div>
                             </div>
                         </div>        
 
-                        <input class="form5" type="submit" value="Précédent" style="text-align: center; cursor:pointer;" >
+                        <input class="form5" action="action" onclick="window.history.go(-1); return false;" type="submit" value="Précédent" style="text-align: center; cursor:pointer;"/>
                         <input class="form5" type="submit" value="Suivant" style="text-align: center; cursor:pointer;" >
                     </form>
                 </div>  
