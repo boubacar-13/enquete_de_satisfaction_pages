@@ -47,18 +47,15 @@ function checkInputAge(){
 function checkEmail(){
     let email = document.getElementById('email').value
     let cpt1 = 0; let cpt2 = 0
+    if(!email){
+        document.getElementById('email').style.border = '2px solid red'
+    }
     for(let i = 0; i<email.length; i++){
         if(email.charAt(i) == '@'){
             cpt1++
         }
         if(email.charAt(i) == '.'){
             cpt2++
-        }
-        if(!email){
-            console.log('helloooo');
-        }
-        else{
-            console.log('laisse moi');
         }
         if(cpt1 != 1 || cpt2 < 1){
             document.getElementById('email').style.border = '2px solid red'
@@ -78,7 +75,21 @@ function checkNumberPhone(){
         document.getElementById('numberPhone').style.border = '2px solid green'
     }
 }
-
+function preventContinuing(){
+    let inputs = document.getElementsByTagName('input')
+    let selects = document.getElementsByTagName('select')
+    
+    for(let i = 0; i < inputs.length - 1; i++){
+        if(!inputs[i].value){
+            inputs[i].style.border = '2px solid red'
+        }
+    }
+    for(let i = 0; i < selects.length; i++){
+        if(!selects[i].value){
+            selects[i].style.border = '2px solid red'
+        }
+    }
+}
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
